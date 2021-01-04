@@ -1,10 +1,10 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
-			<div>
-				Contact
-				<br />
+			<div className='footer'>
+				Contact Me: {' '}
 				<a
 					href='https://www.linkedin.com/in/ashveer-bhayroo/'
 					target='_blank'

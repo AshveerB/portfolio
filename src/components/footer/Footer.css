@@ -1,0 +1,17 @@
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    color: purple;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        font-size: 20px;
+    }
+    a {
+        padding-left: 20px;
+        color: purple;
+    }
+}

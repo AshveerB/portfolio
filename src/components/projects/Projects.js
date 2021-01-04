@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css'
 import Footer from '../footer/Footer';
 import ProjectOne from './ProjectOne';
 import ProjectTwo from './ProjectTwo'

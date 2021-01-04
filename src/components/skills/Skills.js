@@ -18,7 +18,7 @@ import Postman from '../images/postman.jpg'
 
 const Skills = () => {
 	return (
-		<div>
+		<div className='skills'>
 			Skills
 			<Carousel>
 				<Carousel.Item interval={1000}>

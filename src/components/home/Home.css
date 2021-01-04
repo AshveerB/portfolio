@@ -1,5 +1,19 @@
-.headshot {
-    height: 100px;
-    width: 100px;
+
+@media only screen and (max-width: 600px) {
+    .headshot {
+        height: 300px;
+        width: 300px;
+
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    .intro {
+        font-size: 40px;
+        color: rgb(121, 65, 40);
+    }
+
     
 }
