@@ -6,7 +6,6 @@ import Home from './components/home/Home'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
-import Resume from './components/resume/Resume'
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
 				<Route path='/about' component={About} />
 				<Route path='/skills' component={Skills} />
 				<Route path='/projects' component={Projects} />
-				<Route path='/resume' component={Resume} />
 			</main>
 		</div>
 	);

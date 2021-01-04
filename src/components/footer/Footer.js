@@ -17,7 +17,7 @@ const Footer = () => {
 				<a href='https://codepen.io/ABhayroo' target='_blank' rel='noreferrer'>
 					CodePen{' '}
 				</a>
-                <a href='' target='_blank' rel='noreferrer'>ashveerbhayroo@gmail.com</a>
+                <a href='https://docs.google.com/document/d/1i5VqLNqs5V4GaTSjt2dMuEdepHHzXmBbBoOFJNYRM9o/edit?usp=sharing' target='_blank' rel='noreferrer'>Resume</a>
 			</div>
 		);
 };
