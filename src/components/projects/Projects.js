@@ -1,26 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from '../footer/Footer';
-import ReactCardFlip from 'react-card-flip'
+import ProjectOne from './ProjectOne';
+import ProjectTwo from './ProjectTwo'
+import ProjectThree from './ProjectThree';
+import ProjectFour from './ProjectFour'
+import ProjectFive from './ProjectFive'
 
 
 const Projects = () => {
-    const [isFlipped, setIsFlipped] = useState(false)
-    const handleClick = () => {
-        setIsFlipped(!isFlipped)
-    }
     return (
         <div>
             Projects
-            <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-                <div>
-                    <h2>Front</h2>
-                    <button className='front-flip-button' onClick={handleClick}>Flip</button>
-                </div>
-                <div>
-                    <h2>Back</h2>
-                    <button className='back-flip-button' onClick={handleClick}>Flip</button>
-                </div>
-            </ReactCardFlip>
+            <ProjectOne />
+            <ProjectTwo />
+            <ProjectThree />
+            <ProjectFour />
+            <ProjectFive />
             <div><Footer /></div>
         </div>
     );
