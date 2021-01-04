@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
+import Spaceman from '../images/Spaceman - Imgur.png'
+import GitHubLogo from '../images/github.jpeg'
 
 
 const ProjectOne = () => {
@@ -8,21 +10,38 @@ const ProjectOne = () => {
         setIsFlipped(!isFlipped)
     }
     return (
-        <div>
-            <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-                <div>
-                    <h2>Name</h2>
-                    <h2>Image</h2>
-                    <button className='front-flip-button' onClick={handleClick}>Flip</button>
-                </div>
-                <div>
-                    <h2>Deployed Link</h2>
-                    <h2>Repo Link</h2>
-                    <button className='back-flip-button' onClick={handleClick}>Flip</button>
-                </div>
-            </ReactCardFlip>
-        </div>
-    );
+			<div>
+				<ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
+					<div>
+						<h2>Spaceman</h2>
+						<img src={Spaceman} alt='spaceman'></img>
+						<h2>
+							Javascript
+							<br />
+							HTML
+							<br />
+							CSS
+							<br />
+							Git
+							<br />
+							GitHub
+						</h2>
+						<button className='front-flip-button' onClick={handleClick}>
+							Flip
+						</button>
+					</div>
+					<div>
+						<a href='https://ashveerb.github.io/spaceman/' target='_blank' rel='noreferrer'>Deployed Game</a><br />
+						<a href='https://github.com/AshveerB/spaceman' target='_blank' rel='noreferrer'>
+                        <img src={GitHubLogo} alt='gitHubLogo'></img>
+                        </a><br />
+						<button className='back-flip-button' onClick={handleClick}>
+							Flip
+						</button>
+					</div>
+				</ReactCardFlip>
+			</div>
+		);
 };
 
 export default ProjectOne;
