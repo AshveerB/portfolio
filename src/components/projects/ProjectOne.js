@@ -12,7 +12,7 @@ const ProjectOne = () => {
     return (
 			<div>
 				<ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-					<div>
+					<div className='projectOne'>
 						<h2>Spaceman</h2>
 						<img src={Spaceman} alt='spaceman'></img>
 						<h2>
@@ -30,11 +30,21 @@ const ProjectOne = () => {
 							Flip
 						</button>
 					</div>
-					<div>
-						<a href='https://ashveerb.github.io/spaceman/' target='_blank' rel='noreferrer'>Deployed Game</a><br />
-						<a href='https://github.com/AshveerB/spaceman' target='_blank' rel='noreferrer'>
-                        <img src={GitHubLogo} alt='gitHubLogo'></img>
-                        </a><br />
+					<div className='projectOne'>
+						<a
+							href='https://ashveerb.github.io/spaceman/'
+							target='_blank'
+							rel='noreferrer'>
+							Deployed Game
+						</a>
+						<br />
+						<a
+							href='https://github.com/AshveerB/spaceman'
+							target='_blank'
+							rel='noreferrer'>
+							<img src={GitHubLogo} alt='gitHubLogo'></img>
+						</a>
+						<br />
 						<button className='back-flip-button' onClick={handleClick}>
 							Flip
 						</button>

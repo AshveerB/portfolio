@@ -1,14 +1,15 @@
 @media only screen and (max-width: 600px) {
     .name {
         font-size: 55px;
-        color: purple;
+        color: white;
     }
 
     .title {
         font-size: 50px;
-        color: purple;
+        color: white;
     }
     .headerDiv {
         border: solid black;
+        background-color: purple;
     }
 }

@@ -1,3 +1,17 @@
 @media only screen and (max-width: 600px) {
-    
+    .projectOne {
+        border: solid black;
+    }
+    .projectTwo {
+        border: solid black;
+    }
+    .projectThree {
+        border: solid black;
+    }
+    .projectFour {
+        border: solid black;
+    }
+    .projectFive {
+        border: solid black;
+    }
 }

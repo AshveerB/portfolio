@@ -12,7 +12,7 @@ const ProjectFive = () => {
     return (
         <div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-                <div>
+                <div className='projectFive'>
                     <h2>Storytime</h2>
                     <img src={Storytime} alt='storytime'></img>
                     <h2>
@@ -20,7 +20,7 @@ const ProjectFive = () => {
                     </h2>
                     <button className='front-flip-button' onClick={handleClick}>Flip</button>
                 </div>
-                <div>
+                <div className='projectFive'>
                     <a href='' target='_blank' rel='noreferrer'>Deployed Site (Coming Soon)</a><br />
                     <a href='https://github.com/story-time-team' target='_blank' rel='noreferrer'>
                     <img src={GitHubLogo} alt='gitHubLogo'></img>
