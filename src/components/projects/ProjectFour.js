@@ -13,7 +13,7 @@ const ProjectFour = () => {
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
                 <div className='projectFour pmpFront'>
                     <h2 className='projectTitle'>Practice Makes Permanent</h2>
-                    <img src={PMP} alt='pmp'></img>
+                    <img src={PMP} alt='pmp' className='projectImage'></img>
                     <h2 className='technologies'>
                         React + Django + PostgreSQL + Postman + Python + Javascript
                     </h2>

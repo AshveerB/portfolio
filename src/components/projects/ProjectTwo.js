@@ -13,7 +13,7 @@ const ProjectTwo = () => {
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
                 <div className='projectTwo beer30Front'>
                     <h2 className='projectTitle'>Beer30</h2>
-                    <img src={Beer30} alt='beer30'></img>
+                    <img src={Beer30} alt='beer30' className='projectImage'></img>
                     <h2 className='technologies'>
                         React + Javascript + HTML + CSS + Git + GitHub
                     </h2>

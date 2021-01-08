@@ -55,6 +55,14 @@
     }
     .projectButton {
         color: white;
-        background-color: purple;
-    }
+		background-color: purple;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+	}
+	.projectImage {
+		border-radius: 50%;
+		height: 250px;
+		width: 250px;
+	}
 }

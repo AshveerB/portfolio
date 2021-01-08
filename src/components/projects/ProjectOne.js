@@ -13,7 +13,7 @@ const ProjectOne = () => {
 			<ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
 				<div className='projectOne spacemanFront'>
 					<h2 className='projectTitle'>Spaceman</h2>
-					<img src={Spaceman} alt='spaceman'></img>
+					<img src={Spaceman} alt='spaceman' className='projectImage'></img>
 					<h2 className='technologies'>
 						Javascript + HTML + CSS + Git + GitHub
 					</h2>

@@ -14,7 +14,7 @@ const ProjectFive = () => {
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
                 <div className='projectFive stFront'>
                     <h2 className='projectTitle'>Storytime</h2>
-                    <img src={Storytime} alt='storytime'></img>
+                    <img src={Storytime} alt='storytime' className='projectImage'></img>
                     <h2 className='technologies'>
                         React + Django + PostgreSQL + Postman + Python + Javascript + WebRTC
                     </h2>
