@@ -12,8 +12,8 @@ const ProjectOne = () => {
     return (
 			<div>
 				<ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-					<div className='projectOne'>
-						<h2>Spaceman</h2>
+					<div className='projectOne spacemanFront'>
+						<h2 className='spacemanTitle'>Spaceman</h2>
 						<img src={Spaceman} alt='spaceman'></img>
 						<h2>
 							Javascript
@@ -30,7 +30,7 @@ const ProjectOne = () => {
 							Flip
 						</button>
 					</div>
-					<div className='projectOne'>
+					<div className='projectOne spacemanBack'>
 						<a
 							href='https://ashveerb.github.io/spaceman/'
 							target='_blank'

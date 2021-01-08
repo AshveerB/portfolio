@@ -11,7 +11,7 @@ const ProjectFour = () => {
     return (
         <div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-                <div className='projectFour'>
+                <div className='projectFour pmpFront'>
                     <h2>Practice Makes Permanent</h2>
                     <img src={PMP} alt='pmp'></img>
                     <h2>
@@ -19,7 +19,7 @@ const ProjectFour = () => {
                     </h2>
                     <button className='front-flip-button' onClick={handleClick}>Flip</button>
                 </div>
-                <div className='projectFour'>
+                <div className='projectFour pmpBack'>
                     <a href='https://practice-makes-permanent-fe.herokuapp.com/' target='_blank' rel='noreferrer'>Deployed Site</a><br />
                     <a href='https://github.com/AshveerB/practice-makes-permanent' target='_blank' rel='noreferrer'>Front End
                     <img src={GitHubLogo} alt='gitHubLogo'></img>

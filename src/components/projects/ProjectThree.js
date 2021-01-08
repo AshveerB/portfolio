@@ -11,7 +11,7 @@ const ProjectThree = () => {
     return (
         <div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-                <div className='projectThree'>
+                <div className='projectThree atfFront'>
                     <h2>All The Feels</h2>
                     <img src={ATF} alt='atf'></img>
                     <h2>
@@ -19,7 +19,7 @@ const ProjectThree = () => {
                     </h2>
                     <button className='front-flip-button' onClick={handleClick}>Flip</button>
                 </div>
-                <div className='projectThree'>
+                <div className='projectThree atfBack'>
                     <a href='https://all-the-feels-fe.herokuapp.com/' target='_blank' rel='noreferrer'>Deployed Site</a><br />
                     <a href='https://github.com/Kid-Then-Kid-Now' target='_blank' rel='noreferrer'>
                     <img src={GitHubLogo} alt='gitHubLogo'></img>

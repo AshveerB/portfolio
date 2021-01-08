@@ -5,4 +5,8 @@
         color: purple;
         font-family: 'Felipa', cursive;
     }
+    .aboutTitle {
+        font-size: 50px;
+        color: purple;
+    }
 }

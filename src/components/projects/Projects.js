@@ -10,7 +10,7 @@ import ProjectFive from './ProjectFive';
 const Projects = () => {
 	return (
 		<div>
-			Projects
+			<h2 className='projectTabTitle'>Projects</h2>
 			<ProjectOne />
 			<ProjectTwo />
 			<ProjectThree />
