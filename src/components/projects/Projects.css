@@ -17,6 +17,7 @@
 	.projectTabTitle {
 		font-size: 50px;
 		color: purple;
+		font-family: 'Anton', sans-serif;
 	}
 	.spacemanBack {
 		height: 400px;
@@ -47,5 +48,13 @@
 	}
 	.stBack {
 		height: 400px;
-	}
+    }
+    .projectTitle {
+        color: purple;
+        font-family: 'Anton', sans-serif;
+    }
+    .projectButton {
+        color: white;
+        background-color: purple;
+    }
 }

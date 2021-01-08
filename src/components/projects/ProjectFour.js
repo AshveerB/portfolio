@@ -12,12 +12,12 @@ const ProjectFour = () => {
         <div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
                 <div className='projectFour pmpFront'>
-                    <h2>Practice Makes Permanent</h2>
+                    <h2 className='projectTitle'>Practice Makes Permanent</h2>
                     <img src={PMP} alt='pmp'></img>
-                    <h2>
-                        React<br />Django<br />PostgreSQL<br />Postman<br />Python<br />Javascript
+                    <h2 className='technologies'>
+                        React + Django + PostgreSQL + Postman + Python + Javascript
                     </h2>
-                    <button className='front-flip-button' onClick={handleClick}>Flip</button>
+                    <button className='front-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
                 <div className='projectFour pmpBack'>
                     <a href='https://practice-makes-permanent-fe.herokuapp.com/' target='_blank' rel='noreferrer'>Deployed Site</a><br />
@@ -27,7 +27,7 @@ const ProjectFour = () => {
                     <a href='https://github.com/AshveerB/practice-makes-permanent-back-end' target='_blank' rel='noreferrer'>Back End
                     <img src={GitHubLogo} alt='gitHubLogo'></img>
                     </a><br />
-                    <button className='back-flip-button' onClick={handleClick}>Flip</button>
+                    <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
             </ReactCardFlip>
         </div>

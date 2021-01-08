@@ -13,19 +13,19 @@ const ProjectFive = () => {
         <div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
                 <div className='projectFive stFront'>
-                    <h2>Storytime</h2>
+                    <h2 className='projectTitle'>Storytime</h2>
                     <img src={Storytime} alt='storytime'></img>
-                    <h2>
-                        React<br />Django<br />PostgreSQL<br />Postman<br />Python<br />Javascript<br />WebRTC
+                    <h2 className='technologies'>
+                        React + Django + PostgreSQL + Postman + Python + Javascript + WebRTC
                     </h2>
-                    <button className='front-flip-button' onClick={handleClick}>Flip</button>
+                    <button className='front-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
                 <div className='projectFive stBack'>
                     <a href='' target='_blank' rel='noreferrer'>Deployed Site (Coming Soon)</a><br />
                     <a href='https://github.com/story-time-team' target='_blank' rel='noreferrer'>
                     <img src={GitHubLogo} alt='gitHubLogo'></img>
                     </a><br />
-                    <button className='back-flip-button' onClick={handleClick}>Flip</button>
+                    <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
             </ReactCardFlip>
         </div>
