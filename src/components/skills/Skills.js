@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../footer/Footer';
 import Carousel from 'react-bootstrap/Carousel';
 import './Skills.css';
-import Python from '../images/python.jpeg'
+import Python from '../images/pythonlogo.png'
 import Js from '../images/js.jpg'
 import HTMLCSS from '../images/html_css.jpg'
 import Django from '../images/django.jpg'
