@@ -1,18 +1,18 @@
 @media only screen and (max-width: 600px) {
 	.projectOne {
-		border: solid black;
+		border: solid 1px black;
 	}
 	.projectTwo {
-		border: solid black;
+		border: solid 1px black;
 	}
 	.projectThree {
-		border: solid black;
+		border: solid 1px black;
 	}
 	.projectFour {
-		border: solid black;
+		border: solid 1px black;
 	}
 	.projectFive {
-		border: solid black;
+		border: solid 1px black;
 	}
 	.projectTabTitle {
 		font-size: 50px;
@@ -20,6 +20,7 @@
 		font-family: 'Anton', sans-serif;
 	}
 	.spacemanBack {
+		display: flex;
 		height: 400px;
 	}
 	.spacemanFront {
@@ -29,24 +30,28 @@
 		height: 400px;
 	}
 	.beer30Back {
+		display: flex;
 		height: 400px;
 	}
 	.atfFront {
 		height: 400px;
 	}
 	.atfBack {
+		display: flex;
 		height: 400px;
 	}
 	.pmpFront {
 		height: 400px;
 	}
 	.pmpBack {
+		display: flex;
 		height: 400px;
 	}
 	.stFront {
 		height: 400px;
 	}
 	.stBack {
+		display: flex;
 		height: 400px;
     }
     .projectTitle {
@@ -64,5 +69,41 @@
 		border-radius: 50%;
 		height: 250px;
 		width: 250px;
+	}
+	.spacemanDeployed {
+		margin: auto;
+		font-size: 20px;
+	}
+	.spacemanGitHub {
+		margin: auto;
+	}
+	.beer30Deployed {
+		margin: auto;
+		font-size: 20px;
+	}
+	.beer30GitHub {
+		margin: auto;
+	}
+	.atfDeployed {
+		margin: auto;
+		font-size: 20px;
+	}
+	.atfGitHub {
+		margin: auto;
+	}
+	.pmpDeployed {
+		margin: auto;
+		font-size: 20px;
+	}
+	.pmpGitHub {
+		margin: auto;
+		font-size: 20px;
+	}
+	.stDeployed {
+		margin: auto;
+		font-size: 20px;
+	}
+	.stGitHub {
+		margin: auto;
 	}
 }

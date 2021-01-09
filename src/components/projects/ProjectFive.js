@@ -21,8 +21,8 @@ const ProjectFive = () => {
                     <button className='front-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
                 <div className='projectFive stBack'>
-                    <a href='' target='_blank' rel='noreferrer'>Deployed Site (Coming Soon)</a><br />
-                    <a href='https://github.com/story-time-team' target='_blank' rel='noreferrer'>
+                    <a href='' target='_blank' rel='noreferrer' className='stDeployed'>Deployed Site (Coming Soon)</a><br />
+                    <a href='https://github.com/story-time-team' target='_blank' rel='noreferrer' className='stGitHub'>
                     <img src={GitHubLogo} alt='gitHubLogo'></img>
                     </a><br />
                     <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>

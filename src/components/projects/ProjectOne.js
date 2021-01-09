@@ -27,14 +27,16 @@ const ProjectOne = () => {
 					<a
 						href='https://ashveerb.github.io/spaceman/'
 						target='_blank'
-						rel='noreferrer'>
+						rel='noreferrer'
+						className='spacemanDeployed'>
 						Deployed Game
 					</a>
 					<br />
 					<a
 						href='https://github.com/AshveerB/spaceman'
 						target='_blank'
-						rel='noreferrer'>
+						rel='noreferrer'
+						className='spacemanGitHub'>
 						<img src={GitHubLogo} alt='gitHubLogo'></img>
 					</a>
 					<br />

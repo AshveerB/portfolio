@@ -20,11 +20,11 @@ const ProjectFour = () => {
                     <button className='front-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
                 <div className='projectFour pmpBack'>
-                    <a href='https://practice-makes-permanent-fe.herokuapp.com/' target='_blank' rel='noreferrer'>Deployed Site</a><br />
-                    <a href='https://github.com/AshveerB/practice-makes-permanent' target='_blank' rel='noreferrer'>Front End
+                    <a href='https://practice-makes-permanent-fe.herokuapp.com/' target='_blank' rel='noreferrer' className='pmpDeployed'>Deployed Site</a><br />
+                    <a href='https://github.com/AshveerB/practice-makes-permanent' target='_blank' rel='noreferrer' className='pmpGitHub'>Front End<br />
                     <img src={GitHubLogo} alt='gitHubLogo'></img>
                     </a><br />
-                    <a href='https://github.com/AshveerB/practice-makes-permanent-back-end' target='_blank' rel='noreferrer'>Back End
+                    <a href='https://github.com/AshveerB/practice-makes-permanent-back-end' target='_blank' rel='noreferrer' className='pmpGitHub'>Back End<br />
                     <img src={GitHubLogo} alt='gitHubLogo'></img>
                     </a><br />
                     <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>

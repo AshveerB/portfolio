@@ -20,9 +20,9 @@ const ProjectThree = () => {
                     <button className='front-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
                 <div className='projectThree atfBack'>
-                    <a href='https://all-the-feels-fe.herokuapp.com/' target='_blank' rel='noreferrer'>Deployed Site</a><br />
-                    <a href='https://github.com/Kid-Then-Kid-Now' target='_blank' rel='noreferrer'>
-                    <img src={GitHubLogo} alt='gitHubLogo'></img>
+                    <a href='https://all-the-feels-fe.herokuapp.com/' target='_blank' rel='noreferrer' className='atfDeployed'>Deployed Site</a><br />
+                    <a href='https://github.com/Kid-Then-Kid-Now' target='_blank' rel='noreferrer' className='atfGitHub'>
+                    <img src={GitHubLogo} alt='gitHubLogo' ></img>
                     </a><br />
                     <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>
