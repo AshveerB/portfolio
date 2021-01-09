@@ -1,18 +1,65 @@
+.skills {
+	color: purple;
+	font-family: 'Anton', sans-serif;
+}
+
+h3 {
+	color: purple;
+}
+
 @media only screen and (max-width: 600px) {
-    img {
-        height: 100px;
-        width: 100px;
-    }
-    
-    .skills {
-        font-size: 50px;
-        color: purple;
-        font-family: 'Anton', sans-serif;
-    }
+	img {
+		height: 100px;
+		width: 100px;
+	}
 
-    h3 {
-        color: purple;
-        font-size: 30px;
-    }
+	.skills {
+		font-size: 50px;
+	}
 
+	h3 {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.skills {
+		font-size: 60px;
+	}
+	h3 {
+		font-size: 40px;
+	}
+	img {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.skills {
+		font-size: 80px;
+	}
+	h3 {
+		font-size: 50px;
+	}
+	img {
+		height: 300px;
+		width: 300px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	h3 {
+		font-size: 70px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	h3 {
+		font-size: 80px;
+	}
+	img {
+		height: 600px;
+		width: 500px;
+	}
 }
