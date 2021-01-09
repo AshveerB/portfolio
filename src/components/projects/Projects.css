@@ -53,13 +53,13 @@
 	.stBack {
 		display: flex;
 		height: 400px;
-    }
-    .projectTitle {
-        color: purple;
-        font-family: 'Anton', sans-serif;
-    }
-    .projectButton {
-        color: white;
+	}
+	.projectTitle {
+		color: purple;
+		font-family: 'Anton', sans-serif;
+	}
+	.projectButton {
+		color: white;
 		background-color: purple;
 		position: absolute;
 		bottom: 0px;
@@ -105,5 +105,8 @@
 	}
 	.stGitHub {
 		margin: auto;
+	}
+	.technologies {
+		font-size: 25px;
 	}
 }
