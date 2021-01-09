@@ -11,7 +11,7 @@ const Home = () => {
 					src={headshot}
 					alt='headshot'
 					className='headshot'
-				/><br />
+				/><br /><br />
 				<div>
 					<Footer />
 				</div>

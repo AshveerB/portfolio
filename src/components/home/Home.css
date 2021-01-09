@@ -1,19 +1,16 @@
-@media only screen and (max-width: 600px) {
-    .headshot {
-        height: 300px;
-        width: 300px;
+.headshot {
+    height: 300px;
+    width: 300px;
 
-    }
+}
 
-    img {
-        border-radius: 50%;
-    }
+img {
+    border-radius: 50%;
+    align-items: center;
+}
 
-    .intro {
-        font-size: 40px;
-        color: purple;
-        font-family: 'Germania One', cursive;
-    }
-
-    
+.intro {
+    font-size: 80px;
+    color: purple;
+    font-family: 'Germania One', cursive;
 }
