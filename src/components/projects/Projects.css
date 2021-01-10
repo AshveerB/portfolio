@@ -24,43 +24,43 @@
 }
 .spacemanBack {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .spacemanFront {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .beer30Front {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .beer30Back {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .atfFront {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .atfBack {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .pmpFront {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .pmpBack {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .stFront {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .stBack {
 	height: 400px;
-	width: 450px;
+	width: 400px;
 }
 .projectTitle {
 	color: purple;
@@ -74,7 +74,7 @@
 	right: 0px;
 }
 .projectImage {
-	border-radius: 50%;
+	border-radius: 25%;
 	height: 250px;
 	width: 250px;
 }
@@ -119,6 +119,8 @@
 }
 .technologies {
 	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .projectsContainer {
@@ -143,4 +145,22 @@
 .gitHubLogo {
 	height: 200px;
 	width: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+	.projectTabTitle {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.projectTabTitle {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.projectTabTitle {
+		font-size: 80px;
+	}
 }

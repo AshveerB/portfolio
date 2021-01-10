@@ -14,7 +14,7 @@ const ProjectThree = () => {
                 <div className='projectThree atfFront'>
                     <h2 className='projectTitle'>All The Feels</h2>
                     <img src={ATF} alt='atf' className='projectImage'></img>
-                    <h2 className='technologies'>
+                    <h2 className='technologies'> 
                         React + Javascript + CSS + Node + Express + MongoDB + Postman
                     </h2>
                     <button className='front-flip-button projectButton' onClick={handleClick}>Flip</button>
