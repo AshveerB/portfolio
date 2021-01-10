@@ -11,12 +11,14 @@ const Projects = () => {
 	return (
 		<div>
 			<h2 className='projectTabTitle'>Projects</h2>
-			<ProjectOne />
-			<ProjectTwo />
-			<ProjectThree />
-			<ProjectFour />
-			<ProjectFive />
-			<br />
+			<div className='projectsContainer'>
+				<ProjectOne />
+				<ProjectTwo />
+				<ProjectThree />
+				<ProjectFour />
+				<ProjectFive />
+			</div>
+				<br />
 			<div>
 				<Footer />
 			</div>

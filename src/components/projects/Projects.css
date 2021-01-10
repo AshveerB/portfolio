@@ -1,56 +1,66 @@
 .projectOne {
 	border: solid 1px black;
+	flex: 1;
 }
 .projectTwo {
 	border: solid 1px black;
+	flex: 1;
 }
 .projectThree {
 	border: solid 1px black;
+	flex: 1;
 }
 .projectFour {
 	border: solid 1px black;
+	flex: 1;
 }
 .projectFive {
 	border: solid 1px black;
+	flex: 1;
 }
 .projectTabTitle {
 	color: purple;
 	font-family: 'Anton', sans-serif;
 }
 .spacemanBack {
-	display: flex;
 	height: 400px;
+	width: 450px;
 }
 .spacemanFront {
 	height: 400px;
+	width: 450px;
 }
 .beer30Front {
 	height: 400px;
+	width: 450px;
 }
 .beer30Back {
-	display: flex;
 	height: 400px;
+	width: 450px;
 }
 .atfFront {
 	height: 400px;
+	width: 450px;
 }
 .atfBack {
-	display: flex;
 	height: 400px;
+	width: 450px;
 }
 .pmpFront {
 	height: 400px;
+	width: 450px;
 }
 .pmpBack {
-	display: flex;
 	height: 400px;
+	width: 450px;
 }
 .stFront {
 	height: 400px;
+	width: 450px;
 }
 .stBack {
-	display: flex;
 	height: 400px;
+	width: 450px;
 }
 .projectTitle {
 	color: purple;
@@ -107,6 +117,13 @@
 }
 .technologies {
 	font-size: 25px;
+}
+
+.projectsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 600px) {
