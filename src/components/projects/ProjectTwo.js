@@ -22,7 +22,7 @@ const ProjectTwo = () => {
                 <div className='projectTwo beer30Back'>
                     <a href='https://mybeer30.herokuapp.com/' target='_blank' rel='noreferrer' className='beer30Deployed'>Deployed Site</a><br />
                     <a href='https://github.com/AshveerB/beer30' target='_blank' rel='noreferrer' className='beer30GitHub'>
-                    <img src={GitHubLogo} alt='gitHubLogo'></img>
+                    <img src={GitHubLogo} alt='gitHubLogo' className='gitHubLogo'></img>
                     </a><br />
                     <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>

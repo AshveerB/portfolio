@@ -37,7 +37,7 @@ const ProjectOne = () => {
 						target='_blank'
 						rel='noreferrer'
 						className='spacemanGitHub'>
-						<img src={GitHubLogo} alt='gitHubLogo'></img>
+						<img src={GitHubLogo} alt='gitHubLogo' className='gitHubLogo'></img>
 					</a>
 					<br />
 					<button

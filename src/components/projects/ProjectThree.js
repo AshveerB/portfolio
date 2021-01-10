@@ -22,7 +22,7 @@ const ProjectThree = () => {
                 <div className='projectThree atfBack'>
                     <a href='https://all-the-feels-fe.herokuapp.com/' target='_blank' rel='noreferrer' className='atfDeployed'>Deployed Site</a><br />
                     <a href='https://github.com/Kid-Then-Kid-Now' target='_blank' rel='noreferrer' className='atfGitHub'>
-                    <img src={GitHubLogo} alt='gitHubLogo' ></img>
+                    <img src={GitHubLogo} alt='gitHubLogo' className='gitHubLogo'></img>
                     </a><br />
                     <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>

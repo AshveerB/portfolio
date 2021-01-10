@@ -23,7 +23,7 @@ const ProjectFive = () => {
                 <div className='projectFive stBack'>
                     <a href='' target='_blank' rel='noreferrer' className='stDeployed'>Deployed Site (Coming Soon)</a><br />
                     <a href='https://github.com/story-time-team' target='_blank' rel='noreferrer' className='stGitHub'>
-                    <img src={GitHubLogo} alt='gitHubLogo'></img>
+                    <img src={GitHubLogo} alt='gitHubLogo' className='gitHubLogo'></img>
                     </a><br />
                     <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>
                 </div>

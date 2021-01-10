@@ -80,7 +80,7 @@
 }
 .spacemanDeployed {
 	margin: auto;
-	font-size: 20px;
+	font-size: 40px;
 }
 .spacemanGitHub {
 	margin: auto;
@@ -88,29 +88,31 @@
 }
 .beer30Deployed {
 	margin: auto;
-	font-size: 20px;
+	font-size: 40px;
 }
 .beer30GitHub {
 	margin: auto;
 }
 .atfDeployed {
 	margin: auto;
-	font-size: 20px;
+	font-size: 40px;
 }
 .atfGitHub {
 	margin: auto;
 }
 .pmpDeployed {
 	margin: auto;
-	font-size: 20px;
+	font-size: 40px;
 }
 .pmpGitHub {
 	margin: auto;
 	font-size: 20px;
+	flex: 1;
+	width: 100px;
 }
 .stDeployed {
 	margin: auto;
-	font-size: 20px;
+	font-size: 40px;
 }
 .stGitHub {
 	margin: auto;
@@ -126,6 +128,19 @@
 	flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 600px) {
+.pmpGitHubContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
 
+.pmpGitHubLogo {
+	height: 150px;
+	width: 150px;
+}
+
+.gitHubLogo {
+	height: 200px;
+	width: 250px;
 }
