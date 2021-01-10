@@ -1,112 +1,114 @@
+.projectOne {
+	border: solid 1px black;
+}
+.projectTwo {
+	border: solid 1px black;
+}
+.projectThree {
+	border: solid 1px black;
+}
+.projectFour {
+	border: solid 1px black;
+}
+.projectFive {
+	border: solid 1px black;
+}
+.projectTabTitle {
+	color: purple;
+	font-family: 'Anton', sans-serif;
+}
+.spacemanBack {
+	display: flex;
+	height: 400px;
+}
+.spacemanFront {
+	height: 400px;
+}
+.beer30Front {
+	height: 400px;
+}
+.beer30Back {
+	display: flex;
+	height: 400px;
+}
+.atfFront {
+	height: 400px;
+}
+.atfBack {
+	display: flex;
+	height: 400px;
+}
+.pmpFront {
+	height: 400px;
+}
+.pmpBack {
+	display: flex;
+	height: 400px;
+}
+.stFront {
+	height: 400px;
+}
+.stBack {
+	display: flex;
+	height: 400px;
+}
+.projectTitle {
+	color: purple;
+	font-family: 'Anton', sans-serif;
+}
+.projectButton {
+	color: white;
+	background-color: purple;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.projectImage {
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+}
+.spacemanDeployed {
+	margin: auto;
+	font-size: 20px;
+}
+.spacemanGitHub {
+	margin: auto;
+	justify-content: center;
+}
+.beer30Deployed {
+	margin: auto;
+	font-size: 20px;
+}
+.beer30GitHub {
+	margin: auto;
+}
+.atfDeployed {
+	margin: auto;
+	font-size: 20px;
+}
+.atfGitHub {
+	margin: auto;
+}
+.pmpDeployed {
+	margin: auto;
+	font-size: 20px;
+}
+.pmpGitHub {
+	margin: auto;
+	font-size: 20px;
+}
+.stDeployed {
+	margin: auto;
+	font-size: 20px;
+}
+.stGitHub {
+	margin: auto;
+}
+.technologies {
+	font-size: 25px;
+}
+
 @media only screen and (max-width: 600px) {
-	.projectOne {
-		border: solid 1px black;
-	}
-	.projectTwo {
-		border: solid 1px black;
-	}
-	.projectThree {
-		border: solid 1px black;
-	}
-	.projectFour {
-		border: solid 1px black;
-	}
-	.projectFive {
-		border: solid 1px black;
-	}
-	.projectTabTitle {
-		font-size: 50px;
-		color: purple;
-		font-family: 'Anton', sans-serif;
-	}
-	.spacemanBack {
-		display: flex;
-		height: 400px;
-	}
-	.spacemanFront {
-		height: 400px;
-	}
-	.beer30Front {
-		height: 400px;
-	}
-	.beer30Back {
-		display: flex;
-		height: 400px;
-	}
-	.atfFront {
-		height: 400px;
-	}
-	.atfBack {
-		display: flex;
-		height: 400px;
-	}
-	.pmpFront {
-		height: 400px;
-	}
-	.pmpBack {
-		display: flex;
-		height: 400px;
-	}
-	.stFront {
-		height: 400px;
-	}
-	.stBack {
-		display: flex;
-		height: 400px;
-	}
-	.projectTitle {
-		color: purple;
-		font-family: 'Anton', sans-serif;
-	}
-	.projectButton {
-		color: white;
-		background-color: purple;
-		position: absolute;
-		bottom: 0px;
-		right: 0px;
-	}
-	.projectImage {
-		border-radius: 50%;
-		height: 250px;
-		width: 250px;
-	}
-	.spacemanDeployed {
-		margin: auto;
-		font-size: 20px;
-	}
-	.spacemanGitHub {
-		margin: auto;
-	}
-	.beer30Deployed {
-		margin: auto;
-		font-size: 20px;
-	}
-	.beer30GitHub {
-		margin: auto;
-	}
-	.atfDeployed {
-		margin: auto;
-		font-size: 20px;
-	}
-	.atfGitHub {
-		margin: auto;
-	}
-	.pmpDeployed {
-		margin: auto;
-		font-size: 20px;
-	}
-	.pmpGitHub {
-		margin: auto;
-		font-size: 20px;
-	}
-	.stDeployed {
-		margin: auto;
-		font-size: 20px;
-	}
-	.stGitHub {
-		margin: auto;
-	}
-	.technologies {
-		font-size: 25px;
-	}
+
 }

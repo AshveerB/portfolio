@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
-import Spaceman from '../images/Spaceman - Imgur.png';
+import Spaceman from '../images/10.png';
 import GitHubLogo from '../images/github.jpeg';
 
 const ProjectOne = () => {
