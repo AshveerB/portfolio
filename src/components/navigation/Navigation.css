@@ -4,6 +4,12 @@ span {
     align-items: center;
 }
 
+.navigationContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap
+}
+
 @media only screen and (max-width: 600px) {
     span {
         font-size: 20px;
