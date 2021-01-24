@@ -12,11 +12,3 @@
 ## Deployed Site
 
 [Ashveer Bhayroo](https://ashveer-bhayroo.herokuapp.com/)
-
-## User Stories
-
-- test
-
-## Wire Frames
-
-## Component Hierarchy

@@ -89,7 +89,7 @@ const Skills = () => {
 						<h3>Postman</h3>
 					</Carousel.Item>
 				</Carousel>
-			</div>
+			</div><br />
 			<div>
 				<Footer />
 			</div>
