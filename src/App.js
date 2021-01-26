@@ -4,7 +4,6 @@ import Header from './components/header/Header'
 import Navigation from './components/navigation/Navigation'
 import Home from './components/home/Home'
 import About from './components/about/About'
-import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
 				<Route path='/home' component={Home} />
 				<Route path='/' exact render={() => <Redirect to='/home' />} />
 				<Route path='/about' component={About} />
-				<Route path='/skills' component={Skills} />
 				<Route path='/projects' component={Projects} />
 			</main>
 		</div>
