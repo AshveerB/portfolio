@@ -1,6 +1,5 @@
 import './App.css';
 import { Route, Redirect } from 'react-router-dom';
-import Header from './components/header/Header'
 import Navigation from './components/navigation/Navigation'
 import Home from './components/home/Home'
 import About from './components/about/About'
@@ -9,7 +8,6 @@ import Projects from './components/projects/Projects'
 function App() {
   return (
 		<div className='App'>
-			<Header />
 			<Navigation />
 			<main>
 				<Route path='/home' component={Home} />

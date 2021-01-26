@@ -1,29 +1,6 @@
-span {
-    padding-left: 10px;
-    font-size: 25px;
-    align-items: center;
-}
-
-.navigationContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap
-}
-
-@media only screen and (max-width: 600px) {
-    span {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    span {
-        font-size: 30px;
-        padding-left: 20px;
-    }
-}
-
 .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -35,4 +12,69 @@ span {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+}
+
+.brand {
+    font-family: 'Anton', sans-serif;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.navigation {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.white {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .brand {
+        font-size: 40px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .brand {
+        font-size: 45px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .brand {
+        font-size: 60px;
+    }
+    .navigation {
+        font-size: 40px;
+    }
 }
