@@ -3,6 +3,7 @@ p {
     border: solid 1px black;
     padding: 10px;
     box-shadow: 5px 10px #888888;
+    font-family: 'Righteous', cursive;
 }
 .aboutTitle {
     color: purple;
