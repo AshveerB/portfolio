@@ -1,12 +1,12 @@
 import './App.css';
 import { Route, Redirect } from 'react-router-dom';
-import Navigation from './components/navigation/Navigation'
-import Home from './components/home/Home'
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
+import Navigation from './components/navigation/Navigation';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
 
 function App() {
-  return (
+	return (
 		<div className='App'>
 			<Navigation />
 			<main>

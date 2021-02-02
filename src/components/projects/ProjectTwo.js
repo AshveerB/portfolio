@@ -9,26 +9,49 @@ const ProjectTwo = () => {
         setIsFlipped(!isFlipped)
     }
     return (
-        <div>
-            <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
-                <div className='projectTwo beer30Front'>
-                    <h2 className='projectTitle'>Beer30</h2>
-                    <img src={Beer30} alt='beer30' className='projectImage'></img>
-                    <h2 className='technologies'>
-                        React + Javascript + HTML + CSS + Git + GitHub
-                    </h2>
-                    <button className='front-flip-button projectButton' onClick={handleClick}>Flip</button>
-                </div>
-                <div className='projectTwo beer30Back'>
-                    <a href='https://mybeer30.herokuapp.com/' target='_blank' rel='noreferrer' className='beer30Deployed'>Deployed Site</a><br />
-                    <a href='https://github.com/AshveerB/beer30' target='_blank' rel='noreferrer' className='beer30GitHub'>
-                    <img src={GitHubLogo} alt='gitHubLogo' className='gitHubLogo'></img>
-                    </a><br />
-                    <button className='back-flip-button projectButton' onClick={handleClick}>Flip</button>
-                </div>
-            </ReactCardFlip>
-        </div>
-    );
+			<div>
+				<ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
+					<div className='projectTwo beer30Front'>
+						<h2 className='projectTitle'>Beer30</h2>
+						<img src={Beer30} alt='beer30' className='projectImage'></img>
+						<h2 className='technologies'>
+							React + Javascript + HTML + CSS + Git + GitHub
+						</h2>
+						<button
+							className='front-flip-button projectButton'
+							onClick={handleClick}>
+							Flip
+						</button>
+					</div>
+					<div className='projectTwo beer30Back'>
+						<a
+							href='https://mybeer30.netlify.app/'
+							target='_blank'
+							rel='noreferrer'
+							className='beer30Deployed'>
+							Deployed Site
+						</a>
+						<br />
+						<a
+							href='https://github.com/AshveerB/beer30'
+							target='_blank'
+							rel='noreferrer'
+							className='beer30GitHub'>
+							<img
+								src={GitHubLogo}
+								alt='gitHubLogo'
+								className='gitHubLogo'></img>
+						</a>
+						<br />
+						<button
+							className='back-flip-button projectButton'
+							onClick={handleClick}>
+							Flip
+						</button>
+					</div>
+				</ReactCardFlip>
+			</div>
+		);
 };
 
 export default ProjectTwo;

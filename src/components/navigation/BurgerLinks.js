@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BurgerLinks = () => {
-    return (
-        <div>
-            <div className='burgerLinks'>
+	return (
+		<div>
+			<div className='burgerLinks'>
 				<Link to='/home' className='hvr-grow white'>
 					Home
 				</Link>
@@ -15,8 +15,8 @@ const BurgerLinks = () => {
 					Projects
 				</Link>
 			</div>
-        </div>
-    );
+		</div>
+	);
 };
 
 export default BurgerLinks;

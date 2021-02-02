@@ -41,7 +41,7 @@ const Navigation = () => {
 					</div>
 				</div>
 			</nav>
-			<div>{ menuDisplay ? <BurgerLinks /> : null }</div>
+			<div>{menuDisplay ? <BurgerLinks /> : null}</div>
 		</div>
 	);
 };
