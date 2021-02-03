@@ -20,6 +20,9 @@ React app to display my talents
 
 ## Deployed Site
 
+- Netlify Deployment
+[Ashveer Bhayroo](https://ashveer-bhayroo.netlify.app/)
+- Heroku Deployment
 [Ashveer Bhayroo](https://ashveer-bhayroo.herokuapp.com/)
 
 ## WireFrames
