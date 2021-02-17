@@ -36,6 +36,7 @@ const ProjectFive = () => {
 						<img src={GitHubLogo} alt='gitHubLogo' className='gitHubLogo'></img>
 					</a>
 					<br />
+					<div>*In Progress</div>
 					<button
 						className='back-flip-button projectButton'
 						onClick={handleClick}>
